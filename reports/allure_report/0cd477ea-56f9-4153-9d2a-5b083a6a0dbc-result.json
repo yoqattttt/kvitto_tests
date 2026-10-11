@@ -1,0 +1,1 @@
+{"name": "Оплата с промокодом KVITTO10", "status": "skipped", "parameters": [{"name": "browser_name", "value": "'chromium'"}], "start": 1791727319300, "stop": 1791727319300, "uuid": "9e9618b4-e275-4948-a832-d5421d9f77e5", "testCaseId": "0b873dadf8072ffa5b566ed6018ecbda", "fullName": "tests.test_promo#test_pay_with_promo", "titlePath": ["tests", "test_promo.py"]}

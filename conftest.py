@@ -3,12 +3,10 @@ from pages.payment_page import PaymentPage
 import pytest
 import allure
 
-@pytest.fixture(autouse=True)
-def open_kvitto(page:Page):
-    page.goto("https://kvitto-qa-demo.vercel.app/")
 
 @pytest.fixture
 def payment(page:Page) -> PaymentPage:
+    page.goto("https://kvitto-qa-demo.vercel.app/")
     return PaymentPage(page)
 
 @pytest.fixture(autouse=True)

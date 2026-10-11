@@ -1,0 +1,1 @@
+{"uuid": "bb8359c1-c5b1-419f-a87b-2f7980bece5a", "children": ["9e94cab5-17a4-42b7-9188-b37b89b5c1d6"], "befores": [{"name": "open_kvitto", "status": "passed", "start": 1791727889591, "stop": 1791727890855}], "afters": [{"name": "open_kvitto::<lambda>", "start": 1791727891247}], "start": 1791727889591, "stop": 1791727891247}
